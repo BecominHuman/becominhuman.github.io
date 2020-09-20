@@ -475,16 +475,3 @@ a:active { /* osoite, ota yhteyttä, phone hove väri */
 footer {
   padding: 5rem 0;
 }
-
-
-
-@media (max-width: 992px)  {
-  .about-section .video{
-  max-width: 30rem;
-
-}
-  #Demovideo {
-    width: 70%;
-    height: auto;
-  }
-}

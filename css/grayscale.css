@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+
+
+
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -60,6 +64,9 @@
   outline: none;
   border-bottom: 0.25rem solid #ff8700; <-- aktiivisen sivun palkin väri
 } */
+
+
+
 
 .PADDINFIX {
   padding-bottom: 5rem;
@@ -136,18 +143,39 @@
   font-size: 16rem;
   line-height: 16rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+  /*background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text;*/
+  color: black;
 }
 
 .masthead h2 {
 /*  max-width: 20rem;*/
   font-size: 4rem;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+  /*background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text;*/
+  color: black;
 }
+
+
+.masthead a:focus :hover { /* osoite, ota yhteyttä, phone hove väri */
+  text-decoration: none;
+  color: #ff8700;
+}
+
+
+.masthead a:active { /* osoite, ota yhteyttä, phone hove väri */
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.masthead p {
+  line-height: 0.5rem;
+}
+
+
 
 @media (min-width: 304px) { /* muokkaa tätä jos pikkuruudut hajoo */
 
@@ -157,12 +185,16 @@
   }
   .masthead h1 {
     font-size: 4.5rem;
-    line-height:4.5rem;
+    line-height: 4.5rem;
     letter-spacing: 0.2rem;
   }
   .masthead h2 {
     max-width: 27rem;
     font-size: 1.5rem;
+  }
+
+  .masthead p {
+    line-height: 2.5rem; /* ongelma (vaikuttaa etusivun tekstien line heightiin) */
   }
 }
 
@@ -453,7 +485,7 @@ a:focus, a:hover { /* osoite, ota yhteyttä, phone hove väri */
 
 a:active { /* osoite, ota yhteyttä, phone hove väri */
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: #B2D9F3;
 }
 
 .bg-black {

@@ -147,7 +147,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;*/
   color: black;
-  padding-top: 10rem;
+  
 }
 
 .masthead h2 {
@@ -188,7 +188,7 @@
     font-size: 4.5rem;
     line-height: 4.5rem;
     letter-spacing: 0.2rem;
-    padding-top: 15rem;
+    padding-top: 20rem;
   }
   .masthead h2 {
     max-width: 27rem;
